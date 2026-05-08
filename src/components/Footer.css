@@ -1,0 +1,105 @@
+.footer-cont {
+  background-color: #070400;
+  margin-top: 2rem;
+  font-size: larger;
+}
+
+.site-footer {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2.8rem 0 1.1rem;
+  color: #f6e9da;
+  text-align: center;
+
+}
+
+.footer-brand-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  color: #fff4e7;
+}
+
+.haven {
+  color: #ffba76;
+}
+
+.brand-markk {
+  margin-right: 0.5rem;
+  color: #ffba76;
+}
+
+.foot-para {
+  max-width: 56rem;
+  font-size: larger;
+  margin: 0.9rem auto 0;
+  color: #dbc7b2;
+  line-height: 1.85;
+}
+
+.footer-page-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.6rem;
+}
+
+.footer-page-button {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: transparent;
+  color: #f6e9da;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.footer-page-button-active,
+.footer-page-button:hover {
+  background: rgba(255, 184, 118, 0.16);
+  color: #ffba76;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+
+.footer-social-link {
+  width: 2.7rem;
+  height: 2.7rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #f6e9da;
+  text-decoration: none;
+  transition: all 180ms ease;
+}
+
+.footer-social-link:hover {
+  background: rgba(255, 184, 118, 0.14);
+  transform: translateY(-1px);
+}
+.footer-social-icon{
+  font-size: 35px;
+}
+
+.end-para {
+  margin-top: 1.5rem;
+  color: #c9b39b;
+}
+
+@media (max-width: 920px) {
+  .foot-para {
+    line-height: 1.65;
+  }
+}
+
+@media (max-width: 680px) {
+  .site-footer {
+    width: min(100% - 1rem, 1180px);
+  }
+}

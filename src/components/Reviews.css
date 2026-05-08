@@ -1,0 +1,90 @@
+.rev-cont {
+  display: grid;
+  gap: 1.6rem;
+  padding: 1rem 0 0;
+}
+
+.reviews-heading {
+  max-width: 46rem;
+}
+
+.reviews-kicker {
+  color: #c79f7c;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.reviews-title {
+  margin-top: 0.8rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.08;
+}
+
+.card-cont {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card,
+.review-card {
+  padding: 1.5rem;
+  border: 1px solid rgba(135, 91, 49, 0.12);
+  border-radius: 1.5rem;
+  background-color: #211D19;
+  box-shadow: 0 16px 34px rgba(104, 67, 35, 0.08);
+}
+
+.review-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.review-avatar {
+  width: 3.3rem;
+  height: 3.3rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffb36b 0%, #f47f45 100%);
+  color: #261708;
+  font-weight: 800;
+}
+
+.review-person-copy {
+  min-width: 0;
+}
+
+.review-name {
+  font-size: 1.05rem;
+  color: #e7c5a4;
+}
+
+.job {
+  font-size: 0.95rem;
+}
+
+.review-stars {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 1rem;
+}
+
+.starr {
+  color: #ef8b44;
+}
+
+.text {
+  margin-top: 1rem;
+  color: #CAAB91;
+}
+
+@media (max-width: 980px) {
+  .card-cont {
+    grid-template-columns: 1fr;
+  }
+}
