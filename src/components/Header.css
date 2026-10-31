@@ -14,7 +14,7 @@
   padding: clamp(1.8rem, 4vw, 4rem);
   border-radius: 2rem;
   border: 1px solid rgba(135, 91, 49, 0.12);
-  background: url("src/assets/dog-photo.png");
+  background: url("../assets/dog-photo.png");
   background-position: right;
   background-size: contain;
 }
@@ -106,7 +106,7 @@
 @media (max-width: 980px) {
   .hero-copy {
     min-height: 30rem;
-    background: url("../assets/dog-photo.png.avif");
+    background: url("../assets/dog-photo.png");
     background-size: cover, min(20rem, 40%);
   }
 }
@@ -120,7 +120,7 @@
     min-height: auto;
     padding: 1.4rem;
     background:
-      url("../assets/dog-photo.png.avif");
+      url("../assets/dog-photo.png");
     background-position: center, center;
     background-size: cover, 14rem;
 
