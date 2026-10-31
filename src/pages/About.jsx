@@ -105,7 +105,7 @@ export default function About() {
                 </summary>
 
                 <details>
-                    <summary className="see-more">See more <FontAwesomeIcon icon={faArrowDown}/></summary>
+                    <summary className="see-more">See more <FontAwesomeIcon icon={faArrowDown} className="about_arrow"/></summary>
                     <ol className="about-process-list">
                         {adoptionSteps.map((step) => (
                             <li key={step} className="about-process-list__item">

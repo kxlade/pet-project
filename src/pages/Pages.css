@@ -179,6 +179,9 @@
 
 .see-more:hover {
     background: #fffef032;
+    .about_arrow{
+        transform: rotate(180deg);
+    }
 }
 
 .see-more .fa-sharp {
@@ -192,6 +195,11 @@
 .see-more::-webkit-details-marker {
     display: none;
 }
+
+.about_arrow{
+    transition: all 0.8s;
+}
+
 
 .faq-more {
     margin-top: 1rem;
